@@ -2,7 +2,7 @@
 //|                                            News Trading Algo.mq5 |
 //+------------------------------------------------------------------+
 
-#property tester_file "News.txt"
+#property tester_file "News_GBPUSD.txt"
 #include<Trade\Trade.mqh>
 
 //--USER DEFINED VARIABLES------------------------------------------------------
@@ -17,7 +17,7 @@ input double breakeven = 800; //Break even in Ticks
 input int lesserEmaPeriod = 10; //Faster EMA period
 input int greaterEmaPeriod = 30; //Slower EMA period
       //--File names--
-input string NameOfFileWithNewsDates = "News.txt";
+input string NameOfFileWithNewsDates = "News_GBPUSD.txt";
 //---IN CODE GLOBAL VARIABLES---------------------------------------------------
 int lineIndex = -1;
 datetime lastActionTime;
